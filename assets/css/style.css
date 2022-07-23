@@ -1,0 +1,513 @@
+*{
+    font-family: 'Jost', sans-serif;
+    word-wrap: break-word;
+}
+.container{
+    /* border: 1px solid black; */
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+li {
+    list-style-type: none;
+}
+
+.primary {
+    color: #222222;
+}
+
+.secondary {
+    color: #767676;
+}
+section h3{
+    font-weight: 500;
+    line-height: 43px;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.product p.card-text,.product-images p.card-text{
+    margin: 2px auto;
+}
+.card{
+    margin-bottom: 20px;
+}
+
+h3.logo{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+
+/* header section  */
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-nav ul li a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+/* hero section  */
+
+.hero-container{
+    margin: 0px auto;
+    max-width: 1400px;
+    background: url('../images/image\ 42.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .row{
+    min-height: 500px;
+    align-items: flex-end;
+}
+.hero .col{
+    max-width: 100%;
+    background-color: #fff;
+}
+.hero .col h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+}
+.hero p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.hero .col p.bold{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* hero-2 */
+.hero-conteiner-2{
+    margin: 0px auto;
+    max-width: 1400px;
+}
+.hero-2 .col{
+    margin: 0px;
+    padding: 0px; 
+}
+.hero-2-1{
+    background: url('../images/hero-2-1.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-2-1 .col{
+    max-width: 220px;
+    position: absolute;
+    background-color: #fff;
+}
+.hero-2-1 h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 5px;
+}
+.hero-2-1,.hero-2-2,.hero-2-3{
+    min-height: 300px;
+}
+.hero-2-2{
+    background: url('../images/hero-2-2.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-2-3{
+    background-color: #222222;
+    color: #16E0ED;
+}
+.hero-2-3 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.hero-2-3 h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+}
+.hero-2-3 a{
+    color: #16E0ED;
+    border-bottom: 1px solid #16E0ED;
+}
+
+
+/* product selling section  */
+.product a{
+    color: #767676;
+    margin: 0px 10px;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.product ul.nav{
+    margin: 15px auto 25px auto;
+}
+.product p.card-text,.product-images p.card-text{
+    margin: 2px auto;
+}
+.product span{
+    text-decoration: line-through;
+}
+
+/* mid-hero */
+.mid-container{
+    background-image: url('../images/hero-fluid.png');
+    position: relative;
+    max-width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+.mid-hero .row{
+    min-height: 200px;
+}
+.mid-container::before{
+    background: rgba(34, 34, 34,0.4);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mid-hero h2{
+    font-weight: 700;
+    font-size: 38px;    
+}
+
+
+/* footer section */
+footer{
+    background-color: #222222;
+    text-align: center;
+}
+footer .row input{
+    display: inline-block;
+    width: 70%;
+    margin: 10px;
+    border-radius: 0px;
+    padding: 12px 20px;
+}
+footer .email{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer .row h4{
+    font-size: 18px;
+    margin: 15px auto;
+}
+footer .row p{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+footer .row  button{
+    font-size: 14px;
+    padding: 7px 20px;
+    color: #222222;
+    background: #16E0ED;
+}
+footer{
+    background-color: #222222;
+}
+footer .row ul{
+    padding-left: 0px;
+}
+footer .row a{
+    color: white;
+}
+
+footer h5{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+}
+footer ul li{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: #767676;
+}
+footer address ul li{
+    line-height: 24px;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+       /* hero-2 */
+    .hero-2-1 h3{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .hero-2-1,.hero-2-2,.hero-2-3{
+        min-height: 350px;
+    }
+    .hero-2-3 p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .hero-2-3 h3{
+        font-size: 22px;
+        line-height:28px;
+    }
+    /* hero section  */
+    .hero .row{
+        min-height: 700px;
+    }
+    .hero .col{
+        max-width: 75%;
+    }
+    .hero .col h1{
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .hero .col p{
+        font-size: 12px;
+    }
+    .hero .col p.bold{
+        font-size: 14px;
+    }
+    /* product selling section  */
+    section h3{
+        font-size: 28px;
+    }
+    .product a{
+        font-size: 13px;
+    }
+
+    /* mid-hero */
+    .mid-hero .row{
+        min-height: 250px;
+    }
+    .mid-hero h2{
+        font-size: 48px;    
+    }
+     
+    /* footer section */
+    footer{
+        text-align: left;
+    }
+     footer .row h4{
+        font-size: 20px;
+    }
+    footer .row p{
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+    h3.logo{
+        font-size: 31px;
+        line-height: 47px;
+    }
+      /* hero section  */
+    .hero .row{
+        min-height: 700px;
+    }
+    .hero .col{
+        max-width: 55%;
+    }
+    .hero .col h1{
+        font-size: 36px;
+        line-height: 45px;
+    }
+       /* hero-2 */
+    .hero-2-1 h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero-2-1,.hero-2-2,.hero-2-3{
+        min-height: 400px;
+    }
+    .hero-2-3 p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .hero-2-3 h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    /* product selling section  */
+    section h3{
+        font-size: 30px;
+    }
+    .product a{
+        font-size: 14px;
+    }
+    /* mid-hero */
+    .mid-hero .row{
+        min-height: 300px;
+    }
+    .mid-hero h2{
+        font-size: 52px;    
+    }
+    
+    /* footer section */
+     footer .row h4{
+        font-size: 22px;
+    }
+    footer .row p{
+        font-size: 14px;
+    }
+    
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    h3.logo{
+        font-size: 33px;
+        line-height: 49px;
+    }
+     /* hero section  */
+     .hero .row{
+        min-height: 700px;
+    }
+    .hero .col{
+        max-width: 45%;
+    }
+    .hero .col h1{
+        font-size: 40px;
+    }
+    .hero .col p{
+        font-size: 14px;
+    }
+    .hero .col p.bold{
+        font-size: 16px;
+    }
+     /* hero-2 */
+     .hero-2-1 h3{
+        font-size: 26px;
+    }
+    .hero-2-1,.hero-2-2,.hero-2-3{
+        min-height: 500px;
+    }
+    .hero-2-3 p{
+        font-size: 14px;
+    }
+    .hero-2-3 h3{
+        font-size: 26px;
+    }
+
+    /* product selling section  */
+    section h3{
+        font-size: 33px;
+    }
+    .product a{
+        font-size: 15px;
+        margin: 0px 15px;
+    }
+    /* mid-hero */
+    .mid-hero .row{
+        min-height: 350px;
+    }
+    .mid-hero h2{
+        font-size: 56px;    
+    }
+
+     
+    /* footer section */
+     footer .row input{
+        display: inline;
+        width: 40%;
+    }
+     footer .row h4{
+        font-size: 24px;
+    }
+    footer .row p{
+        font-size: 16px;
+    }
+
+    footer h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    footer ul li{
+        font-size: 12px;
+        line-height: 38px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    h3.logo{
+        font-size: 35px;
+        line-height: 51px;
+    }
+     /* hero section  */
+    .hero .col{
+        max-width: 45%;
+    }
+    .hero .col h1{
+        font-size: 40px;
+    }
+
+    /* product selling section  */
+    section h3{
+        font-size: 35px;
+    }
+    .product a{
+        font-size: 16px;
+        margin: 0px 20px;
+    }
+
+    /* mid-hero */
+    .mid-hero .row{
+        min-height: 400px;
+    }
+    .mid-hero h2{
+        font-size: 60px;    
+    }
+    .mid-hero a{
+        font-size: 18px;
+    }
+
+   
+    /* footer section */
+    footer .row h4{
+        font-size: 26px;
+    }
+    footer .row p{
+        font-size: 18px;
+    }
+    
+    footer h5{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    footer ul li{
+        font-size: 14px;
+        line-height: 40px;
+    }
+    footer address ul li{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+   
+}
